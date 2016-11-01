@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.WelomeActivity">
+
+    <gaia.uranus.module.welcome.FloatLeafLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff9c4">
+
+    </gaia.uranus.module.welcome.FloatLeafLayout>
+    <gaia.uranus.module.welcome.SecretTextView
+        android:id="@+id/htextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:textSize="14dp"
+        android:textColor="#A0522D"
+        android:text="慈母手中线，游子身上衣。\n临行密密缝，意恐迟迟归。"/>
+</RelativeLayout>

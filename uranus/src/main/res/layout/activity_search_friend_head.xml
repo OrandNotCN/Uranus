@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lly_all_header"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/header_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:background="@mipmap/btn_back"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:layout_toRightOf="@id/header_left"
+        android:layout_centerVertical="true"
+        android:lines="1"
+        android:imeOptions="actionSearch"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/et_bg"
+        android:hint="请输入对方手机号码"/>
+
+    <ImageView
+        android:id="@+id/header_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:src="@mipmap/et_delete" />
+
+</RelativeLayout>

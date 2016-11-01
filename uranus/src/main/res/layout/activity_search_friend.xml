@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ui_base_grey"
+    android:orientation="vertical">
+    <include layout="@layout/activity_search_friend_head"/>
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:textColor="@color/ui_base_grey"
+        android:gravity="center"
+        android:textSize="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_2dp"
+        android:text="未找到相关信息"/>
+</LinearLayout>

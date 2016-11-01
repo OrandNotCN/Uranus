@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pushlib/Pushlib.iml" filepath="$PROJECT_DIR$/Pushlib/Pushlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uranus.iml" filepath="$PROJECT_DIR$/Uranus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uranus/app.iml" filepath="$PROJECT_DIR$/uranus/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialoglib/dialoglib.iml" filepath="$PROJECT_DIR$/dialoglib/dialoglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory/factory.iml" filepath="$PROJECT_DIR$/factory/factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welcomelib/lib.iml" filepath="$PROJECT_DIR$/welcomelib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolslib/toolslib.iml" filepath="$PROJECT_DIR$/toolslib/toolslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uranus/uranus.iml" filepath="$PROJECT_DIR$/uranus/uranus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welcomelib/welcomelib.iml" filepath="$PROJECT_DIR$/welcomelib/welcomelib.iml" />
+    </modules>
+  </component>
+</project>
